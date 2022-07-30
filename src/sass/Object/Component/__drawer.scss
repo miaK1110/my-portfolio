@@ -1,0 +1,44 @@
+.c-drawer {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: -120%;
+  width: 40%;
+  height: 100vh;
+  background: #f0f0f0;
+  opacity: 0.7;
+  transition: all 0.6s;
+  @include mq(sm) {
+    width: 100%;
+  }
+  ul {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  li {
+    list-style: none;
+    text-align: center;
+  }
+  li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover {
+      color: #998265;
+    }
+    &:active {
+      color: #998265;
+    }
+  }
+  &.active {
+    right: 0;
+  }
+}

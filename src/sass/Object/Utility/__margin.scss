@@ -1,0 +1,29 @@
+// margin bottom
+.u-mb {
+  &__S {
+    margin-bottom: 1rem;
+  }
+  &__m {
+    margin-bottom: 2rem;
+  }
+}
+
+// margin top
+.u-mt {
+  &__s {
+    margin-top: 1rem;
+  }
+  &__m {
+    margin-top: 2rem;
+  }
+  &__l {
+    margin-top: 3rem;
+  }
+}
+
+// margin left
+.u-ml {
+  &__s {
+    margin-left: 1rem;
+  }
+}

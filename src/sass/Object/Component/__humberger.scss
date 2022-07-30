@@ -1,0 +1,43 @@
+/*ボタン外側※レイアウトによってpositionや形状は適宜変更してください*/
+.c-humberger {
+  position: fixed; /*ボタン内側の基点となるためrelativeを指定*/
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 9999;
+  span {
+    display: inline-block;
+    transition: all 0.4s; /*アニメーションの設定*/
+    position: absolute;
+    right: 0;
+    height: 2px;
+    background-color: #666;
+    cursor: pointer;
+    &:nth-of-type(1) {
+      top: 22px;
+      width: 50%;
+    }
+    &:nth-of-type(2) {
+      top: 29px;
+      width: 30%;
+    }
+  }
+  &.active span:nth-of-type(1) {
+    top: 20px;
+    right: 0;
+    transform: translateY(6px) rotate(-45deg);
+    width: 35%;
+  }
+
+  &.active span:nth-of-type(2) {
+    top: 32px;
+    right: 0;
+    transform: translateY(-6px) rotate(45deg);
+    width: 35%;
+  }
+  &-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.c-link {
+  background-color: #c5d1d9;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  @include mq(md) {
+    padding: 4px 7px;
+  }
+  &:nth-child(1) {
+    margin-right: 1rem;
+  }
+  &__text {
+    padding-top: 4px;
+  }
+  &__icon {
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 8px;
+  }
+}

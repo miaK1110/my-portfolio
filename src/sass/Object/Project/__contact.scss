@@ -1,0 +1,100 @@
+.p-contact {
+  width: 100%;
+  background-color: white;
+  padding: 60px 0;
+
+  &__container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
+    @include mq(sm) {
+      width: 90%;
+    }
+  }
+
+  &__upper-box {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__upper-item {
+    width: 45%;
+    &:first-child {
+      margin-right: 2rem;
+    }
+  }
+
+  &__error {
+    padding-top: 1rem;
+    color: $color-error;
+  }
+  &__label {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    &--textarea {
+      padding-bottom: 1rem;
+    }
+  }
+  &__input {
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #b4b4b4;
+    cursor: pointer;
+    width: 100%;
+  }
+  &__input--error {
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid $color-error;
+    width: 100%;
+  }
+  &__textarea {
+    resize: vertical;
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid $color-form;
+    cursor: pointer;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  &__textarea--error {
+    resize: vertical;
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid $color-error;
+    cursor: pointer;
+    width: 100%;
+    height: 120px;
+  }
+  &__submit {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background: $color-accect;
+    border: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+  }
+}
