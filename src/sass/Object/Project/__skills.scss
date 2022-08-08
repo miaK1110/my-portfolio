@@ -9,7 +9,7 @@
     width: 80%;
     padding-top: 30px;
     padding-bottom: 30px;
-    @include mq(sm) {
+    @include mq(lg) {
       width: 90%;
     }
   }

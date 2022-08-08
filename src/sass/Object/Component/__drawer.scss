@@ -32,10 +32,10 @@
     font-weight: bold;
     font-size: 20px;
     &:hover {
-      color: #998265;
+      color: $color-accect;
     }
     &:active {
-      color: #998265;
+      color: $color-accect;
     }
   }
   &.active {

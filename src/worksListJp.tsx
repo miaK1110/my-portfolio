@@ -65,7 +65,7 @@ const worksListJp: WorksList[] = [
     title: 'wannnyannadopt.jp',
     lang: 'Javascript + PHP',
     description:
-      'PHPとJavaScriptを使い犬と猫の里親募集サイトを作成しました。パスワードリマインダー機能やチャット機能を初めて作成しAjaxを使ってのお気にいり機能など全てフルスクラッチで作成しました。(レスポンシブ対応無)',
+      'PHPとJavaScriptを使い犬と猫の里親募集サイトを作成しました。パスワードリマインダー機能やチャット機能を初めて作成しAjaxを使ってのお気にいり機能など全てフルスクラッチで作成しました。(レスポンシブ未対応)',
     siteLink: 'https://wannnyannadopyjp.herokuapp.com/index.php',
     githubLink: 'https://github.com/miaK1110/wannnyannadopt.jp',
   },

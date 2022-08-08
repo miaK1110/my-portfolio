@@ -3,7 +3,6 @@ import { useSpring, animated } from '@react-spring/web';
 import VisibilitySensor from 'react-visibility-sensor';
 
 import Title from '../../atoms/Title';
-import { isVisible } from '@testing-library/user-event/dist/utils';
 
 const EnSkills = () => {
   const [skillsAreVisible, setSkillsAreVisible] = useState(false);

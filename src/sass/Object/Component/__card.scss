@@ -34,12 +34,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    @include mq(sm) {
-    }
   }
   &__item {
     width: 46%;
-    @include mq(md) {
+    @include mq(sm) {
       width: 50%;
     }
     @include mq(sm) {
