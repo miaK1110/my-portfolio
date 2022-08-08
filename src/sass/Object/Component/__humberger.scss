@@ -1,13 +1,12 @@
-/*ボタン外側※レイアウトによってpositionや形状は適宜変更してください*/
 .c-humberger {
-  position: fixed; /*ボタン内側の基点となるためrelativeを指定*/
+  position: fixed;
   width: 80px;
   height: 80px;
   cursor: pointer;
   z-index: 9999;
   span {
     display: inline-block;
-    transition: all 0.4s; /*アニメーションの設定*/
+    transition: all 0.4s;
     position: absolute;
     right: 0;
     height: 2px;

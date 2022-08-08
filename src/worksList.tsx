@@ -38,7 +38,7 @@ const worksList: WorksList[] = [
     title: 'react-vue-jQuery-backbone-todo',
     lang: 'React, Vue, jQuery, backbone',
     description:
-      'I created a todo list using various frameworks to learn the differences between React, Vue, jQuery, and Backbobe.I created a todo list using various frameworks to learn the differences between React, Vue, jQuery, and Backbone. In the process, I created both a class component and a function component in React, which gave me a better understanding. You can find each Github code in README.md.',
+      'I created a todo list using various frameworks to learn the differences between React, Vue, jQuery, and Backbobe.I created a todo list using various frameworks to learn the differences between React, Vue, jQuery, and Backbone. You can find each Github code in README.md.',
     siteLink: 'http://reacttodoo.s3-website-ap-northeast-1.amazonaws.com/',
     githubLink: 'https://github.com/miaK1110/react-todo.git',
   },
