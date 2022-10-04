@@ -9,11 +9,11 @@ const EnBio = () => {
       <div className='p-bio' id='bio'>
         <Title titleName={'BIO'}></Title>
         <div className='p-bio__container'>
-          <div className='p-bio__img-box'>
+          {/* <div className='p-bio__img-box'>
             <img src={img} className='p-bio__img' alt='me' />
-          </div>
+          </div> */}
           <div className='p-bio__introduction'>
-            <h2 className='p-bio__name'>Misa King</h2>
+            <h2 className='p-bio__name'>M.K</h2>
             <p className='p-bio__text'>
               I was originally a hairdresser and enjoyed it very much, but I had
               to leave this professions due to skin problems from allergies.

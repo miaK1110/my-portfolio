@@ -9,11 +9,11 @@ const EnBio = () => {
       <div className='p-bio' id='bio'>
         <Title titleName={'BIO'}></Title>
         <div className='p-bio__container'>
-          <div className='p-bio__img-box'>
+          {/* <div className='p-bio__img-box'>
             <img src={img} className='p-bio__img' alt='flower' width='300px' />
-          </div>
+          </div> */}
           <div className='p-bio__introduction'>
-            <h2 className='p-bio__name'>キング実沙</h2>
+            <h2 className='p-bio__name'>K.M</h2>
             <p className='p-bio__text'>
               日本では美容師として働いていてとてもやりがいを感じる毎日でしたがひどい手荒れになり退職しました。
               今後どんな仕事をして生きていきたいかを考え日々を過ごしていたある日プログラミングに出会いまるで世界が変わったかのように魅了されました。自分の考えていたことが形になった時、エラーが出て解決できた時などプログラミングすること自体にもやりがいを感じています。
